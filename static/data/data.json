@@ -1,0 +1,55 @@
+{
+  "story": {
+    "name": "Home",
+    "created_at": "2018-07-23T11:51:27.377Z",
+    "published_at": "2018-07-23T12:13:20.131Z",
+    "alternates": [],
+    "id": 158563,
+    "uuid": "2a3f9b5c-682d-4e05-b8ef-dcfde10b458a",
+    "content": {
+      "_uid": "7c59bc8b-8a76-4ba2-ac90-d8a014da0450",
+      "body": [
+        {
+          "_uid": "e60d41c8-774b-4f62-8c71-5bcad63ea6ab",
+          "headline": "Hello world!",
+          "component": "teaser"
+        },
+        {
+          "_uid": "5bcb43a9-f767-445c-b4f3-230bacfdf0ad",
+          "columns": [
+            {
+              "_uid": "11c77f06-ea24-4163-9afb-51e957424c25",
+              "name": "Feature 1",
+              "component": "feature"
+            },
+            {
+              "_uid": "ee1baa95-6981-458f-9401-3ddb220bc896",
+              "name": "Feature 2",
+              "component": "feature"
+            },
+            {
+              "_uid": "0f66fbe5-e4d9-489d-8f89-064743676b72",
+              "name": "Feature 3",
+              "component": "feature"
+            }
+          ],
+          "component": "grid"
+        }
+      ],
+      "component": "page"
+    },
+    "slug": "home",
+    "full_slug": "home",
+    "sort_by_date": null,
+    "position": -126015,
+    "tag_list": [],
+    "is_startpage": false,
+    "parent_id": 0,
+    "meta_data": null,
+    "group_id": "376b5f4e-efe1-4fd8-9777-fd0836b6724a",
+    "first_published_at": "2018-07-23T12:13:20.000Z",
+    "release_id": null,
+    "lang": "default",
+    "path": null
+  }
+}

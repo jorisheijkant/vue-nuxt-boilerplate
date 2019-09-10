@@ -1,4 +1,14 @@
-# Nuxt.js Storyblok Boilerplate
+# Joris' portfolio template
+
+Based on the wonderful Nuxt/Storyblok template by Alexander Feiglstorfer (https://github.com/storyblok/vue-nuxt-boilerplate). 
+
+###Steps to undertake before building
+- Change site name and description in the Package.json
+- Set up a Storyblok account and change the access token in the Nuxt config.
+- Set up Google Analytics and add the ID to the Nuxt config
+
+
+# Standard Nuxt.js Storyblok Boilerplate
 
 ## How to get started?
 

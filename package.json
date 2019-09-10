@@ -1,19 +1,26 @@
 {
-  "name": "vue-nuxt-storyblok-boilerplate",
+  "name": "vue-nuxt-storyblok-boilerplate-joris-version",
   "version": "1.0.0",
-  "description": "Nuxt.js Storyblok Boilerplate",
-  "author": "Alexander Feiglstorfer <delooks@gmail.com>",
+  "description": "Portfolio base template, using Nuxt and Storyblok",
+  "author": "Joris Heijkant <jorisheijkant@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "npm run fetch && npm run build && rsync -arv ~/documents/dev/sites/wendy-portfolio/dist/ degrotewendy-website@ssh.pcextreme.nl:/home/vhosting/z/vhost0081712/domains/degrotewendy.website/htdocs/www/",
+    "fetch": "node utils/save-local-data.js"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.2.0",
+    "add": "^2.0.6",
+    "axios": "^0.19.0",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
-    "storyblok-nuxt": "1.0.0"
+    "nuxt": "2.9.2",
+    "storyblok-nuxt": "1.0.1",
+    "vue-cookie-accept-decline": "^5.2.3",
+    "yarn": "^1.17.3"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
